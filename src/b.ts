@@ -1,2 +1,3 @@
-console.log('aaaa')
-const c = 'a'
+function teste (a, b, c, d, e) {
+  return true
+}

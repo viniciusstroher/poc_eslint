@@ -4,7 +4,10 @@ module.exports = {
         "es2020": true
     },
     "extends": [
-        "standard"
+        "standard",
+        // "prettier",
+        // "prettier/@typescript-eslint",
+
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
