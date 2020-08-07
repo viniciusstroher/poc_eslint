@@ -1,3 +1,4 @@
-function teste (a, b, c, d, e) {
-  return true
+const obj = {teste: 'saipos'}
+if (obj) {
+  console.log('aa')
 }

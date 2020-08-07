@@ -4,14 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "prettier": "node_modules\\.bin\\prettier.cmd --write src\\*.ts",
     "lint:fix": "node_modules\\.bin\\eslint.cmd --fix src\\*.ts || exit 0",
     "lint": "node_modules\\.bin\\eslint.cmd src\\*.ts || exit 0",
-    
-    "format":"node_modules\\.bin\\prettier-eslint.cmd --eslint-config-path ./.eslintrc.js --write 'src\\**\\*.ts'",
-    
     "start-app": "node_modules\\.bin\\ts-node.cmd src\\index.ts",
     "start": "node_modules\\.bin\\nodemon.cmd --watch \"src\\**\\*\" -e ts --exec \"npm run lint:fix && npm run start-app\"",
-    
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -29,6 +26,7 @@
     "eslint-config-standard": "^14.1.1",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
     "nodemon": "^2.0.4",

@@ -1,1 +1,6 @@
-{}
+{
+	"singleQuote": true,
+	"semi": false,
+	"bracketSpacing":false,
+	"max-len": ["error", {"code": 120, "ignoreUrls": true}]
+}

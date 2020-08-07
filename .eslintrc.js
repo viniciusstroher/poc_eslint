@@ -5,9 +5,7 @@ module.exports = {
     },
     "extends": [
         "standard",
-        // "prettier",
-        // "prettier/@typescript-eslint",
-
+        "prettier"
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
@@ -15,11 +13,10 @@ module.exports = {
         "sourceType": "module"
     },
     "plugins": [
-        "@typescript-eslint"
+        "prettier"
     ],
     "rules": {
-        "semi": "error", //quando usar semicolum da problema
-        "no-var": "error", // não permite var
-        "max-len": ["error", {"code": 120, "ignoreUrls": true}] // max chars por linhas
+        "prettier/prettier": "error",
+        "no-var": "error",
     }
 };

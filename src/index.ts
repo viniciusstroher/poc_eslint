@@ -1,6 +1,6 @@
-const b = require('./b')
-const a = 1
-const t = 1 // aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-// // aaaa
-// if (a === 1) {}
-// while (true);
+console.log('aaaa')
+let teste = 'saipos'
+teste = 'saipos2'
+if (teste) {
+  console.log(teste)
+}
