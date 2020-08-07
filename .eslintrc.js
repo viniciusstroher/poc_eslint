@@ -15,6 +15,8 @@ module.exports = {
         "@typescript-eslint"
     ],
     "rules": {
-        "semi": "error" //quando usar semicolum da problema
+        "semi": "error", //quando usar semicolum da problema
+        "no-var": "error", // não permite var
+        "max-len": ["error", {"code": 120, "ignoreUrls": true}] // max chars por linhas
     }
 };
